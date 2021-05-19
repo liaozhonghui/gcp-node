@@ -1,5 +1,5 @@
 {
-  "name": "egg-mongo",
+  "name": "gcp-node",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -23,9 +23,9 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-egg-mongo",
-    "docker": "egg-scripts start --title=egg-server-egg-mongo",
-    "stop": "egg-scripts stop --title=egg-server-egg-mongo",
+    "start": "egg-scripts start --daemon --title=egg-server-gcp-node",
+    "docker": "egg-scripts start --title=egg-server-gcp-node",
+    "stop": "egg-scripts stop --title=egg-server-gcp-node",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
